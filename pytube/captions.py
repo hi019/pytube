@@ -66,7 +66,7 @@ class Caption:
         return time_fmt + ms
 
     def xml_caption_to_srt(self, xml_captions: str) -> str:
-      """Convert xml caption tracks to "SubRip Subtitle (srt)".
+      """TEST Convert xml caption tracks to "SubRip Subtitle (srt)".
 
       :param str xml_captions:
           XML formatted caption tracks.
